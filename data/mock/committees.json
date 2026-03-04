@@ -1,0 +1,144 @@
+{
+  "data": {
+    "nodeCommittees": {
+      "__typename": "NodeCommitteeConnection",
+      "nodes": [
+        {
+          "__typename": "NodeCommittee",
+          "id": "committee-finance",
+          "title": "Standing Committee on Finance and Economic Affairs",
+          "path": "/committees/finance-economic-affairs",
+          "body": {
+            "processed": "<p>The Standing Committee on Finance and Economic Affairs examines all financial legislation, reviews the national budget, and monitors economic policy and fiscal management.</p><h2>Mandate</h2><ul><li>Review and report on the annual budget and appropriation bills</li><li>Examine tax legislation and revenue policy</li><li>Monitor the national debt and fiscal sustainability</li><li>Scrutinize public expenditure and value for money</li><li>Review central bank reports and monetary policy</li></ul><h2>Recent Work</h2><p>The committee is currently conducting a comprehensive inquiry into digital currency regulation and its implications for the national economy.</p>",
+            "summary": "The Standing Committee on Finance and Economic Affairs examines all financial legislation, reviews the national budget, and monitors economic policy and fiscal management.MandateReview and report on t"
+          },
+          "chairName": "Hon. Thomas Kruger",
+          "memberCount": 21,
+          "committeeType": [
+            {
+              "id": "standing-committee",
+              "name": "standing-committee"
+            }
+          ],
+          "meetingSchedule": "Tuesdays and Thursdays, 10:00 AM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+            "alt": "Finance committee meeting room",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeCommittee",
+          "id": "committee-health",
+          "title": "Standing Committee on Health and Social Services",
+          "path": "/committees/health-social-services",
+          "body": {
+            "processed": "<p>The Standing Committee on Health and Social Services oversees healthcare policy, public health programs, and social welfare legislation.</p><h2>Areas of Responsibility</h2><ul><li>Healthcare system funding and performance</li><li>Pharmaceutical regulation and drug pricing</li><li>Mental health services and policy</li><li>Social security and welfare programs</li><li>Public health emergency preparedness</li></ul><h2>Current Inquiries</h2><p>The committee is holding hearings on mental health service accessibility in rural areas and reviewing the implementation of the National Health Service Reform Act.</p>",
+            "summary": "The Standing Committee on Health and Social Services oversees healthcare policy, public health programs, and social welfare legislation.Areas of ResponsibilityHealthcare system funding and performance"
+          },
+          "chairName": "Hon. Amira Hassan",
+          "memberCount": 18,
+          "committeeType": [
+            {
+              "id": "standing-committee",
+              "name": "standing-committee"
+            }
+          ],
+          "meetingSchedule": "Wednesdays, 2:00 PM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+            "alt": "Health committee hearing in progress",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeCommittee",
+          "id": "committee-digital",
+          "title": "Select Committee on Digital Innovation",
+          "path": "/committees/digital-innovation",
+          "body": {
+            "processed": "<p>The Select Committee on Digital Innovation examines the impact of technology on society, the economy, and government, and recommends policies to harness digital innovation responsibly.</p><h2>Focus Areas</h2><ul><li>Artificial intelligence regulation and ethics</li><li>Data privacy and cybersecurity</li><li>Digital government services modernization</li><li>Digital skills and workforce development</li><li>Broadband infrastructure and digital access</li></ul><h2>Reports</h2><p>The committee recently published its landmark report on \"AI in Government: Opportunities and Safeguards\" which recommended a comprehensive regulatory framework for public sector use of artificial intelligence.</p>",
+            "summary": "The Select Committee on Digital Innovation examines the impact of technology on society, the economy, and government, and recommends policies to harness digital innovation responsibly.Focus AreasArtif"
+          },
+          "chairName": "Hon. Diana Petrov",
+          "memberCount": 15,
+          "committeeType": [
+            {
+              "id": "select-committee",
+              "name": "select-committee"
+            }
+          ],
+          "meetingSchedule": "Mondays, 3:00 PM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+            "alt": "Digital technology and innovation",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

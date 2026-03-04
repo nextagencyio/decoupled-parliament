@@ -1,0 +1,78 @@
+{
+  "data": {
+    "nodeLegislations": {
+      "__typename": "NodeLegislationConnection",
+      "nodes": [
+        {
+          "__typename": "NodeLegislation",
+          "id": "bill-climate",
+          "title": "Climate Action Framework Act",
+          "path": "/legislation/climate-action-framework-act",
+          "body": {
+            "processed": "<p>The Climate Action Framework Act establishes legally binding emissions reduction targets and creates an institutional framework for coordinating the nation's response to climate change.</p><h2>Key Provisions</h2><ul><li>Net-zero greenhouse gas emissions target by 2050</li><li>Interim target of 55% reduction by 2035 (from 2005 levels)</li><li>Establishment of an independent Climate Action Commission</li><li>Five-year carbon budgets with sectoral allocations</li><li>Green transition fund of 2 billion ALDs for renewable energy and efficiency</li></ul><h2>Legislative History</h2><p>The bill was introduced by the Prime Minister in response to growing public concern about climate change and the recommendations of the National Climate Advisory Panel.</p>",
+            "summary": "The Climate Action Framework Act establishes legally binding emissions reduction targets and creates an institutional framework for coordinating the nation's response to climate change.Key ProvisionsN"
+          },
+          "billNumber": "HB-2026-042",
+          "sponsor": "Rt. Hon. Prime Minister",
+          "introducedDate": {
+            "timestamp": 1768924800
+          },
+          "legislationStatus": "Committee Stage",
+          "committeeReferral": "Standing Committee on Environment and Natural Resources",
+          "category": [
+            {
+              "id": "environment",
+              "name": "environment"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeLegislation",
+          "id": "bill-digital-privacy",
+          "title": "Digital Privacy Protection Bill",
+          "path": "/legislation/digital-privacy-protection-bill",
+          "body": {
+            "processed": "<p>The Digital Privacy Protection Bill strengthens data privacy rights for citizens and establishes new obligations for organizations that collect, process, and store personal data.</p><h2>Key Provisions</h2><ul><li>Right to data portability and the right to be forgotten</li><li>Mandatory data breach notification within 72 hours</li><li>Restrictions on automated decision-making affecting individuals</li><li>Establishment of a Data Protection Commissioner with enforcement powers</li><li>Penalties of up to 4% of annual revenue for non-compliance</li></ul><h2>Committee Review</h2><p>The Select Committee on Digital Innovation held three public hearings on the bill, receiving testimony from technology companies, civil liberties organizations, and academic experts.</p>",
+            "summary": "The Digital Privacy Protection Bill strengthens data privacy rights for citizens and establishes new obligations for organizations that collect, process, and store personal data.Key ProvisionsRight to"
+          },
+          "billNumber": "HB-2026-067",
+          "sponsor": "Hon. Diana Petrov",
+          "introducedDate": {
+            "timestamp": 1770307200
+          },
+          "legislationStatus": "Second Reading",
+          "committeeReferral": "Select Committee on Digital Innovation",
+          "category": [
+            {
+              "id": "defense-security",
+              "name": "defense-security"
+            }
+          ]
+        },
+        {
+          "__typename": "NodeLegislation",
+          "id": "bill-education",
+          "title": "Education Modernization and Access Act",
+          "path": "/legislation/education-modernization-act",
+          "body": {
+            "processed": "<p>The Education Modernization and Access Act reforms the national education system to improve quality, expand access, and prepare students for the demands of the modern economy.</p><h2>Key Provisions</h2><ul><li>Universal pre-kindergarten for all children ages 3-4</li><li>Updated national curriculum emphasizing STEM and digital literacy</li><li>Teacher recruitment and retention incentive program</li><li>Expanded vocational training and apprenticeship pathways</li><li>Student loan reform with income-based repayment</li></ul><h2>Impact Assessment</h2><p>The Parliamentary Budget Office estimates the reforms will cost approximately 1.8 billion ALDs annually, funded through a reallocation of existing education budget and new revenue from the Digital Services Tax.</p>",
+            "summary": "The Education Modernization and Access Act reforms the national education system to improve quality, expand access, and prepare students for the demands of the modern economy.Key ProvisionsUniversal p"
+          },
+          "billNumber": "HB-2026-089",
+          "sponsor": "Hon. Marcus Oyelaran",
+          "introducedDate": {
+            "timestamp": 1772294400
+          },
+          "legislationStatus": "First Reading",
+          "committeeReferral": "Standing Committee on Education and Culture",
+          "category": [
+            {
+              "id": "education",
+              "name": "education"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

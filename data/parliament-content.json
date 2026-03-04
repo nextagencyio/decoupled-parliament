@@ -1,0 +1,636 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "National legislature homepage with hero, featured committees, and legislative CTA",
+      "fields": [
+        {
+          "id": "hero_title",
+          "label": "Hero Title",
+          "type": "string",
+          "description": "Main headline (e.g., 'The People's Legislature')"
+        },
+        {
+          "id": "hero_subtitle",
+          "label": "Hero Subtitle",
+          "type": "string",
+          "description": "Secondary text below the title"
+        },
+        {
+          "id": "hero_description",
+          "label": "Hero Description",
+          "type": "text",
+          "description": "Longer description for the hero section"
+        },
+        {
+          "id": "stats_items",
+          "label": "Statistics",
+          "type": "paragraph(stat_item)[]",
+          "description": "Key parliamentary statistics"
+        },
+        {
+          "id": "featured_items_title",
+          "label": "Featured Items Title",
+          "type": "string"
+        },
+        {
+          "id": "cta_title",
+          "label": "CTA Title",
+          "type": "string"
+        },
+        {
+          "id": "cta_description",
+          "label": "CTA Description",
+          "type": "text"
+        },
+        {
+          "id": "cta_primary",
+          "label": "Primary CTA",
+          "type": "string"
+        },
+        {
+          "id": "cta_secondary",
+          "label": "Secondary CTA",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "bundle": "member",
+      "label": "Member of Parliament",
+      "description": "Elected members of the national legislature",
+      "body": true,
+      "fields": [
+        {
+          "id": "party",
+          "label": "Party",
+          "type": "term(parties)[]"
+        },
+        {
+          "id": "constituency",
+          "label": "Constituency",
+          "type": "string"
+        },
+        {
+          "id": "position",
+          "label": "Position/Title",
+          "type": "string"
+        },
+        {
+          "id": "first_elected",
+          "label": "First Elected",
+          "type": "string"
+        },
+        {
+          "id": "email",
+          "label": "Email",
+          "type": "string"
+        },
+        {
+          "id": "phone",
+          "label": "Phone",
+          "type": "string"
+        },
+        {
+          "id": "photo",
+          "label": "Photo",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "committee",
+      "label": "Committee",
+      "description": "Parliamentary committees and subcommittees",
+      "body": true,
+      "fields": [
+        {
+          "id": "chair_name",
+          "label": "Committee Chair",
+          "type": "string"
+        },
+        {
+          "id": "member_count",
+          "label": "Number of Members",
+          "type": "integer"
+        },
+        {
+          "id": "committee_type",
+          "label": "Committee Type",
+          "type": "term(committee_types)[]"
+        },
+        {
+          "id": "meeting_schedule",
+          "label": "Meeting Schedule",
+          "type": "string"
+        },
+        {
+          "id": "image",
+          "label": "Committee Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "legislation",
+      "label": "Legislation",
+      "description": "Bills, acts, and legislative proposals",
+      "body": true,
+      "fields": [
+        {
+          "id": "bill_number",
+          "label": "Bill Number",
+          "type": "string"
+        },
+        {
+          "id": "sponsor",
+          "label": "Sponsor",
+          "type": "string"
+        },
+        {
+          "id": "introduced_date",
+          "label": "Date Introduced",
+          "type": "datetime"
+        },
+        {
+          "id": "legislation_status",
+          "label": "Legislation Status",
+          "type": "string"
+        },
+        {
+          "id": "committee_referral",
+          "label": "Committee Referral",
+          "type": "string"
+        },
+        {
+          "id": "category",
+          "label": "Category",
+          "type": "term(legislation_categories)[]"
+        }
+      ]
+    },
+    {
+      "bundle": "session",
+      "label": "Parliamentary Session",
+      "description": "Legislative sessions, debates, and sittings",
+      "body": true,
+      "fields": [
+        {
+          "id": "session_date",
+          "label": "Session Date",
+          "type": "datetime"
+        },
+        {
+          "id": "end_time",
+          "label": "End Time",
+          "type": "datetime"
+        },
+        {
+          "id": "location",
+          "label": "Location",
+          "type": "string"
+        },
+        {
+          "id": "session_type",
+          "label": "Session Type",
+          "type": "term(session_types)[]"
+        },
+        {
+          "id": "agenda_url",
+          "label": "Agenda/Order Paper URL",
+          "type": "string"
+        },
+        {
+          "id": "broadcast_url",
+          "label": "Live Broadcast URL",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "bundle": "news",
+      "label": "News Article",
+      "description": "Parliamentary news, press releases, and announcements",
+      "body": true,
+      "fields": [
+        {
+          "id": "image",
+          "label": "Featured Image",
+          "type": "image"
+        },
+        {
+          "id": "category",
+          "label": "Category",
+          "type": "term(news_categories)[]"
+        },
+        {
+          "id": "featured",
+          "label": "Featured",
+          "type": "bool"
+        }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Statistic Item",
+      "description": "A key statistic with number and label",
+      "fields": [
+        {
+          "id": "number",
+          "label": "Number",
+          "type": "string!",
+          "description": "The statistic value"
+        },
+        {
+          "id": "label",
+          "label": "Label",
+          "type": "string!",
+          "description": "What the number represents"
+        }
+      ]
+    }
+  ],
+  "taxonomies": [
+    {
+      "vid": "parties",
+      "name": "Political Parties",
+      "terms": [
+        { "name": "Democratic Alliance" },
+        { "name": "Progressive Party" },
+        { "name": "National Unity Party" },
+        { "name": "Green Coalition" },
+        { "name": "Independent" }
+      ]
+    },
+    {
+      "vid": "committee_types",
+      "name": "Committee Types",
+      "terms": [
+        { "name": "Standing Committee" },
+        { "name": "Select Committee" },
+        { "name": "Joint Committee" },
+        { "name": "Subcommittee" }
+      ]
+    },
+    {
+      "vid": "legislation_categories",
+      "name": "Legislation Categories",
+      "terms": [
+        { "name": "Finance & Economy" },
+        { "name": "Healthcare" },
+        { "name": "Education" },
+        { "name": "Environment" },
+        { "name": "Defense & Security" },
+        { "name": "Infrastructure" }
+      ]
+    },
+    {
+      "vid": "session_types",
+      "name": "Session Types",
+      "terms": [
+        { "name": "Plenary Sitting" },
+        { "name": "Committee Hearing" },
+        { "name": "Question Time" },
+        { "name": "Emergency Debate" },
+        { "name": "Budget Session" }
+      ]
+    },
+    {
+      "vid": "news_categories",
+      "name": "News Categories",
+      "terms": [
+        { "name": "Legislative Updates" },
+        { "name": "Committee Reports" },
+        { "name": "Speaker Announcements" },
+        { "name": "Public Engagement" },
+        { "name": "International Relations" }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "stat-members",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "350",
+        "label": "Members"
+      }
+    },
+    {
+      "id": "stat-committees",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "24",
+        "label": "Committees"
+      }
+    },
+    {
+      "id": "stat-bills",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "187",
+        "label": "Bills This Session"
+      }
+    },
+    {
+      "id": "stat-sessions",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "142",
+        "label": "Sitting Days"
+      }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Parliament of Aldoria",
+        "hero_title": "The People's Parliament",
+        "hero_subtitle": "Legislating for a Better Aldoria",
+        "hero_description": "<p>The Parliament of Aldoria is the supreme legislative body of the nation, responsible for making laws, scrutinizing government, and representing the interests of all Aldorians.</p>",
+        "stats_items": [
+          "@stat-members",
+          "@stat-committees",
+          "@stat-bills",
+          "@stat-sessions"
+        ],
+        "featured_items_title": "Current Legislation",
+        "cta_title": "Engage With Your Parliament",
+        "cta_description": "<p>Parliament belongs to the people. Submit petitions, attend public hearings, watch live debates, and contact your representative to make your voice heard.</p>",
+        "cta_primary": "Find Your MP",
+        "cta_secondary": "Watch Live Debates"
+      }
+    },
+    {
+      "id": "member-speaker",
+      "type": "node.member",
+      "path": "/members/eleanor-ashworth",
+      "values": {
+        "title": "Rt. Hon. Eleanor Ashworth",
+        "body": "<p>The Right Honourable Eleanor Ashworth has served as Speaker of Parliament since 2024, presiding over debates and ensuring parliamentary procedure is followed.</p><h2>Parliamentary Career</h2><p>First elected to Parliament in 2006 representing Northgate, Speaker Ashworth served as Minister for Education (2014-2018) and Leader of the House (2018-2024) before being unanimously elected Speaker.</p><h2>Role of the Speaker</h2><ul><li>Presides over plenary debates and maintains order</li><li>Rules on points of order and procedural matters</li><li>Represents Parliament in official functions</li><li>Oversees parliamentary staff and administration</li></ul>",
+        "party": ["democratic-alliance"],
+        "constituency": "Northgate",
+        "position": "Speaker of Parliament",
+        "first_elected": "2006",
+        "email": "speaker@parliament.ald",
+        "phone": "+355 42 555 001",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+          "alt": "Speaker Eleanor Ashworth"
+        }
+      }
+    },
+    {
+      "id": "member-opposition-leader",
+      "type": "node.member",
+      "path": "/members/marcus-oyelaran",
+      "values": {
+        "title": "Hon. Marcus Oyelaran",
+        "body": "<p>Marcus Oyelaran serves as Leader of the Opposition, heading the Progressive Party caucus in Parliament and providing alternative policy positions to the governing coalition.</p><h2>Policy Priorities</h2><ul><li>Healthcare reform and universal coverage expansion</li><li>Climate action and green energy transition</li><li>Workers' rights and wage growth</li><li>Affordable housing investment</li></ul><h2>Background</h2><p>Before entering politics, Mr. Oyelaran practiced law for 12 years, specializing in constitutional law and human rights cases.</p>",
+        "party": ["progressive-party"],
+        "constituency": "Central Harborough",
+        "position": "Leader of the Opposition",
+        "first_elected": "2010",
+        "email": "m.oyelaran@parliament.ald",
+        "phone": "+355 42 555 020",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+          "alt": "Leader of the Opposition Marcus Oyelaran"
+        }
+      }
+    },
+    {
+      "id": "member-backbench",
+      "type": "node.member",
+      "path": "/members/diana-petrov",
+      "values": {
+        "title": "Hon. Diana Petrov",
+        "body": "<p>Diana Petrov represents the constituency of Lakewood South and serves on the Standing Committee on the Environment and the Select Committee on Digital Innovation.</p><h2>Legislative Work</h2><ul><li>Sponsored the Clean Rivers Act of 2025</li><li>Co-sponsored the Digital Privacy Protection Bill</li><li>Championed rural broadband access legislation</li></ul><h2>Background</h2><p>Dr. Petrov holds a Ph.D. in Environmental Science and previously worked as a research scientist at the National Environmental Institute before entering politics in 2018.</p>",
+        "party": ["green-coalition"],
+        "constituency": "Lakewood South",
+        "position": "Member of Parliament",
+        "first_elected": "2018",
+        "email": "d.petrov@parliament.ald",
+        "phone": "+355 42 555 045",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+          "alt": "MP Diana Petrov"
+        }
+      }
+    },
+    {
+      "id": "committee-finance",
+      "type": "node.committee",
+      "path": "/committees/finance-economic-affairs",
+      "values": {
+        "title": "Standing Committee on Finance and Economic Affairs",
+        "body": "<p>The Standing Committee on Finance and Economic Affairs examines all financial legislation, reviews the national budget, and monitors economic policy and fiscal management.</p><h2>Mandate</h2><ul><li>Review and report on the annual budget and appropriation bills</li><li>Examine tax legislation and revenue policy</li><li>Monitor the national debt and fiscal sustainability</li><li>Scrutinize public expenditure and value for money</li><li>Review central bank reports and monetary policy</li></ul><h2>Recent Work</h2><p>The committee is currently conducting a comprehensive inquiry into digital currency regulation and its implications for the national economy.</p>",
+        "chair_name": "Hon. Thomas Kruger",
+        "member_count": 21,
+        "committee_type": ["standing-committee"],
+        "meeting_schedule": "Tuesdays and Thursdays, 10:00 AM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+          "alt": "Finance committee meeting room"
+        }
+      }
+    },
+    {
+      "id": "committee-health",
+      "type": "node.committee",
+      "path": "/committees/health-social-services",
+      "values": {
+        "title": "Standing Committee on Health and Social Services",
+        "body": "<p>The Standing Committee on Health and Social Services oversees healthcare policy, public health programs, and social welfare legislation.</p><h2>Areas of Responsibility</h2><ul><li>Healthcare system funding and performance</li><li>Pharmaceutical regulation and drug pricing</li><li>Mental health services and policy</li><li>Social security and welfare programs</li><li>Public health emergency preparedness</li></ul><h2>Current Inquiries</h2><p>The committee is holding hearings on mental health service accessibility in rural areas and reviewing the implementation of the National Health Service Reform Act.</p>",
+        "chair_name": "Hon. Amira Hassan",
+        "member_count": 18,
+        "committee_type": ["standing-committee"],
+        "meeting_schedule": "Wednesdays, 2:00 PM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+          "alt": "Health committee hearing in progress"
+        }
+      }
+    },
+    {
+      "id": "committee-digital",
+      "type": "node.committee",
+      "path": "/committees/digital-innovation",
+      "values": {
+        "title": "Select Committee on Digital Innovation",
+        "body": "<p>The Select Committee on Digital Innovation examines the impact of technology on society, the economy, and government, and recommends policies to harness digital innovation responsibly.</p><h2>Focus Areas</h2><ul><li>Artificial intelligence regulation and ethics</li><li>Data privacy and cybersecurity</li><li>Digital government services modernization</li><li>Digital skills and workforce development</li><li>Broadband infrastructure and digital access</li></ul><h2>Reports</h2><p>The committee recently published its landmark report on \"AI in Government: Opportunities and Safeguards\" which recommended a comprehensive regulatory framework for public sector use of artificial intelligence.</p>",
+        "chair_name": "Hon. Diana Petrov",
+        "member_count": 15,
+        "committee_type": ["select-committee"],
+        "meeting_schedule": "Mondays, 3:00 PM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+          "alt": "Digital technology and innovation"
+        }
+      }
+    },
+    {
+      "id": "bill-climate",
+      "type": "node.legislation",
+      "path": "/legislation/climate-action-framework-act",
+      "values": {
+        "title": "Climate Action Framework Act",
+        "body": "<p>The Climate Action Framework Act establishes legally binding emissions reduction targets and creates an institutional framework for coordinating the nation's response to climate change.</p><h2>Key Provisions</h2><ul><li>Net-zero greenhouse gas emissions target by 2050</li><li>Interim target of 55% reduction by 2035 (from 2005 levels)</li><li>Establishment of an independent Climate Action Commission</li><li>Five-year carbon budgets with sectoral allocations</li><li>Green transition fund of 2 billion ALDs for renewable energy and efficiency</li></ul><h2>Legislative History</h2><p>The bill was introduced by the Prime Minister in response to growing public concern about climate change and the recommendations of the National Climate Advisory Panel.</p>",
+        "bill_number": "HB-2026-042",
+        "sponsor": "Rt. Hon. Prime Minister",
+        "introduced_date": "2026-01-20T10:00:00",
+        "legislation_status": "Committee Stage",
+        "committee_referral": "Standing Committee on Environment and Natural Resources",
+        "category": ["environment"]
+      }
+    },
+    {
+      "id": "bill-digital-privacy",
+      "type": "node.legislation",
+      "path": "/legislation/digital-privacy-protection-bill",
+      "values": {
+        "title": "Digital Privacy Protection Bill",
+        "body": "<p>The Digital Privacy Protection Bill strengthens data privacy rights for citizens and establishes new obligations for organizations that collect, process, and store personal data.</p><h2>Key Provisions</h2><ul><li>Right to data portability and the right to be forgotten</li><li>Mandatory data breach notification within 72 hours</li><li>Restrictions on automated decision-making affecting individuals</li><li>Establishment of a Data Protection Commissioner with enforcement powers</li><li>Penalties of up to 4% of annual revenue for non-compliance</li></ul><h2>Committee Review</h2><p>The Select Committee on Digital Innovation held three public hearings on the bill, receiving testimony from technology companies, civil liberties organizations, and academic experts.</p>",
+        "bill_number": "HB-2026-067",
+        "sponsor": "Hon. Diana Petrov",
+        "introduced_date": "2026-02-05T10:00:00",
+        "legislation_status": "Second Reading",
+        "committee_referral": "Select Committee on Digital Innovation",
+        "category": ["defense-security"]
+      }
+    },
+    {
+      "id": "bill-education",
+      "type": "node.legislation",
+      "path": "/legislation/education-modernization-act",
+      "values": {
+        "title": "Education Modernization and Access Act",
+        "body": "<p>The Education Modernization and Access Act reforms the national education system to improve quality, expand access, and prepare students for the demands of the modern economy.</p><h2>Key Provisions</h2><ul><li>Universal pre-kindergarten for all children ages 3-4</li><li>Updated national curriculum emphasizing STEM and digital literacy</li><li>Teacher recruitment and retention incentive program</li><li>Expanded vocational training and apprenticeship pathways</li><li>Student loan reform with income-based repayment</li></ul><h2>Impact Assessment</h2><p>The Parliamentary Budget Office estimates the reforms will cost approximately 1.8 billion ALDs annually, funded through a reallocation of existing education budget and new revenue from the Digital Services Tax.</p>",
+        "bill_number": "HB-2026-089",
+        "sponsor": "Hon. Marcus Oyelaran",
+        "introduced_date": "2026-02-28T10:00:00",
+        "legislation_status": "First Reading",
+        "committee_referral": "Standing Committee on Education and Culture",
+        "category": ["education"]
+      }
+    },
+    {
+      "id": "session-plenary-jan",
+      "type": "node.session",
+      "path": "/sessions/plenary-sitting-january-28",
+      "values": {
+        "title": "Plenary Sitting - January 28, 2026",
+        "body": "<p>Regular plenary sitting of Parliament to debate and vote on pending legislation and hear ministerial statements.</p><h2>Order of Business</h2><ul><li>Questions to the Prime Minister (30 minutes)</li><li>Second Reading debate: Climate Action Framework Act (HB-2026-042)</li><li>Committee Stage report: National Health Service Amendment Bill</li><li>Ministerial Statement: Economic Growth Strategy Update</li><li>Opposition Day debate: Housing Affordability Crisis</li></ul><p>Members of the public may observe proceedings from the public gallery. Gallery passes are available from the Visitor Services office.</p>",
+        "session_date": "2026-01-28T14:00:00",
+        "end_time": "2026-01-28T22:00:00",
+        "location": "Parliamentary Chamber, Parliament House",
+        "session_type": ["plenary-sitting"],
+        "agenda_url": "https://parliament.ald/order-paper/2026-01-28",
+        "broadcast_url": "https://parliament.ald/live"
+      }
+    },
+    {
+      "id": "session-question-time",
+      "type": "node.session",
+      "path": "/sessions/question-time-february-4",
+      "values": {
+        "title": "Prime Minister's Question Time - February 4, 2026",
+        "body": "<p>Weekly session in which Members of Parliament question the Prime Minister on matters of government policy and national importance.</p><h2>Expected Topics</h2><ul><li>Cost of living and inflation measures</li><li>NHS waiting times and health service reform</li><li>International trade agreements update</li><li>Climate policy and energy security</li></ul><p>Question Time is broadcast live on Parliamentary Television and streamed on the Parliament website.</p>",
+        "session_date": "2026-02-04T12:00:00",
+        "end_time": "2026-02-04T12:30:00",
+        "location": "Parliamentary Chamber, Parliament House",
+        "session_type": ["question-time"],
+        "agenda_url": "https://parliament.ald/questions/2026-02-04",
+        "broadcast_url": "https://parliament.ald/live"
+      }
+    },
+    {
+      "id": "session-budget",
+      "type": "node.session",
+      "path": "/sessions/budget-session-march-15",
+      "values": {
+        "title": "Budget Session - March 15, 2026",
+        "body": "<p>The Chancellor of the Exchequer will present the National Budget for Fiscal Year 2026-2027, outlining the government's spending and revenue plans.</p><h2>Budget Process</h2><ul><li>Budget Speech by the Chancellor (approximately 90 minutes)</li><li>Opposition response (30 minutes)</li><li>General debate on the budget (2 days)</li><li>Committee stage examination (2 weeks)</li><li>Final vote on the Finance Bill</li></ul><p>The budget speech will be followed by the publication of detailed budget documents, available for download on the Treasury website.</p>",
+        "session_date": "2026-03-15T14:30:00",
+        "end_time": "2026-03-15T18:00:00",
+        "location": "Parliamentary Chamber, Parliament House",
+        "session_type": ["budget-session"],
+        "agenda_url": "https://parliament.ald/budget/2026",
+        "broadcast_url": "https://parliament.ald/live"
+      }
+    },
+    {
+      "id": "news-climate-vote",
+      "type": "node.news",
+      "path": "/news/climate-bill-passes-second-reading",
+      "values": {
+        "title": "Climate Action Framework Act Passes Second Reading with Cross-Party Support",
+        "body": "<p>The Climate Action Framework Act passed its second reading in Parliament with a vote of 248 to 87, gaining support from members across party lines.</p><h2>Debate Highlights</h2><p>During the six-hour debate, members discussed the economic implications of emissions targets, the need for a just transition for workers in fossil fuel industries, and the role of technology in achieving net-zero goals.</p><h2>Next Steps</h2><ul><li>The bill now moves to committee stage for detailed scrutiny</li><li>The Standing Committee on Environment will hold public hearings</li><li>Amendments may be proposed and voted on during committee stage</li><li>Third reading expected by June 2026</li></ul><p>\"This is a historic moment for our nation,\" said the Prime Minister. \"We are demonstrating that Aldoria will lead the global effort to combat climate change.\"</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800&q=80",
+          "alt": "Parliamentary voting session"
+        },
+        "category": ["legislative-updates"],
+        "featured": true
+      }
+    },
+    {
+      "id": "news-speaker-ruling",
+      "type": "node.news",
+      "path": "/news/speaker-new-procedures",
+      "values": {
+        "title": "Speaker Announces New Procedures for Digital Participation in Debates",
+        "body": "<p>Speaker Ashworth announced new standing orders that will allow Members of Parliament to participate in committee hearings remotely via secure video link under specified circumstances.</p><h2>Key Changes</h2><ul><li>Members may participate remotely in committee hearings with advance approval</li><li>Remote participation limited to evidence-gathering sessions, not voting</li><li>Secure parliamentary video conferencing system required</li><li>Speaker retains authority to require in-person attendance</li></ul><p>The changes were recommended by the Select Committee on Parliamentary Procedures following a six-month review of hybrid working arrangements introduced during the pandemic.</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+          "alt": "Digital parliamentary participation"
+        },
+        "category": ["speaker-announcements"],
+        "featured": false
+      }
+    },
+    {
+      "id": "news-committee-report",
+      "type": "node.news",
+      "path": "/news/ai-government-report",
+      "values": {
+        "title": "Select Committee Publishes Landmark Report on AI in Government",
+        "body": "<p>The Select Committee on Digital Innovation has published its long-awaited report on the use of artificial intelligence in government services, recommending a comprehensive regulatory framework.</p><h2>Key Recommendations</h2><ul><li>Mandatory impact assessments before deploying AI in public services</li><li>Establishment of a Government AI Standards Board</li><li>Transparency requirements for AI-assisted decisions affecting citizens</li><li>Investment in AI skills training for civil servants</li><li>Annual parliamentary review of government AI use</li></ul><p>The report, which took 18 months to produce, drew on testimony from over 100 witnesses including technology experts, civil servants, and members of the public.</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
+          "alt": "Artificial intelligence and government technology"
+        },
+        "category": ["committee-reports"],
+        "featured": true
+      }
+    },
+    {
+      "id": "page-about",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About Parliament",
+        "body": "<p>The Parliament of Aldoria is the supreme legislative body of the nation, established under the Constitution of 1948. Parliament is composed of 350 elected Members who represent constituencies across the country.</p><h2>Functions of Parliament</h2><ul><li>Making and amending laws through the legislative process</li><li>Scrutinizing government policy and holding ministers accountable</li><li>Approving the national budget and government spending</li><li>Debating matters of national importance</li><li>Representing the interests and concerns of constituents</li></ul><h2>Parliamentary Sessions</h2><p>Parliament sits for approximately 142 days per year, typically from late January through July and from September through December. The Speaker sets the daily agenda in consultation with party leaders.</p>"
+      }
+    },
+    {
+      "id": "page-visiting",
+      "type": "node.page",
+      "path": "/visiting",
+      "values": {
+        "title": "Visiting Parliament",
+        "body": "<p>Parliament House is open to the public and we welcome visitors to learn about the democratic process and the history of our national legislature.</p><h2>Guided Tours</h2><p>Free guided tours of Parliament House are available Monday through Saturday. Tours last approximately 75 minutes and include the Parliamentary Chamber, Committee Rooms, the Great Hall, and the Parliamentary Library.</p><h2>Attending Debates</h2><p>Members of the public may observe parliamentary debates from the public gallery. Gallery passes are available on a first-come, first-served basis from the Visitor Services desk. Identification is required.</p><h2>Visitor Information</h2><ul><li>Address: Parliament House, Constitution Square, Aldoria City</li><li>Tour bookings: tours@parliament.ald or +355 42 555 200</li><li>Opening hours: Monday - Saturday, 9:00 AM - 5:00 PM</li><li>Closed on public holidays and during parliamentary recess</li></ul>"
+      }
+    }
+  ]
+}

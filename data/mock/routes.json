@@ -1,0 +1,747 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Parliament of Aldoria",
+          "path": "/homepage",
+          "heroTitle": "The People's Parliament",
+          "heroSubtitle": "Legislating for a Better Aldoria",
+          "heroDescription": {
+            "processed": "<p>The Parliament of Aldoria is the supreme legislative body of the nation, responsible for making laws, scrutinizing government, and representing the interests of all Aldorians.</p>",
+            "summary": "The Parliament of Aldoria is the supreme legislative body of the nation, responsible for making laws, scrutinizing government, and representing the interests of all Aldorians."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-members",
+              "title": "",
+              "number": "350",
+              "label": "Members"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-committees",
+              "title": "",
+              "number": "24",
+              "label": "Committees"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-bills",
+              "title": "",
+              "number": "187",
+              "label": "Bills This Session"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-sessions",
+              "title": "",
+              "number": "142",
+              "label": "Sitting Days"
+            }
+          ],
+          "featuredItemsTitle": "Current Legislation",
+          "ctaTitle": "Engage With Your Parliament",
+          "ctaDescription": {
+            "processed": "<p>Parliament belongs to the people. Submit petitions, attend public hearings, watch live debates, and contact your representative to make your voice heard.</p>",
+            "summary": "Parliament belongs to the people. Submit petitions, attend public hearings, watch live debates, and contact your representative to make your voice heard."
+          },
+          "ctaPrimary": "Find Your MP",
+          "ctaSecondary": "Watch Live Debates"
+        }
+      }
+    }
+  },
+  "/members/eleanor-ashworth": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMember",
+          "id": "member-speaker",
+          "title": "Rt. Hon. Eleanor Ashworth",
+          "path": "/members/eleanor-ashworth",
+          "body": {
+            "processed": "<p>The Right Honourable Eleanor Ashworth has served as Speaker of Parliament since 2024, presiding over debates and ensuring parliamentary procedure is followed.</p><h2>Parliamentary Career</h2><p>First elected to Parliament in 2006 representing Northgate, Speaker Ashworth served as Minister for Education (2014-2018) and Leader of the House (2018-2024) before being unanimously elected Speaker.</p><h2>Role of the Speaker</h2><ul><li>Presides over plenary debates and maintains order</li><li>Rules on points of order and procedural matters</li><li>Represents Parliament in official functions</li><li>Oversees parliamentary staff and administration</li></ul>",
+            "summary": "The Right Honourable Eleanor Ashworth has served as Speaker of Parliament since 2024, presiding over debates and ensuring parliamentary procedure is followed.Parliamentary CareerFirst elected to Parli"
+          },
+          "party": [
+            {
+              "id": "democratic-alliance",
+              "name": "democratic-alliance"
+            }
+          ],
+          "constituency": "Northgate",
+          "position": "Speaker of Parliament",
+          "firstElected": "2006",
+          "email": "speaker@parliament.ald",
+          "phone": "+355 42 555 001",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Speaker Eleanor Ashworth",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/members/marcus-oyelaran": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMember",
+          "id": "member-opposition-leader",
+          "title": "Hon. Marcus Oyelaran",
+          "path": "/members/marcus-oyelaran",
+          "body": {
+            "processed": "<p>Marcus Oyelaran serves as Leader of the Opposition, heading the Progressive Party caucus in Parliament and providing alternative policy positions to the governing coalition.</p><h2>Policy Priorities</h2><ul><li>Healthcare reform and universal coverage expansion</li><li>Climate action and green energy transition</li><li>Workers' rights and wage growth</li><li>Affordable housing investment</li></ul><h2>Background</h2><p>Before entering politics, Mr. Oyelaran practiced law for 12 years, specializing in constitutional law and human rights cases.</p>",
+            "summary": "Marcus Oyelaran serves as Leader of the Opposition, heading the Progressive Party caucus in Parliament and providing alternative policy positions to the governing coalition.Policy PrioritiesHealthcare"
+          },
+          "party": [
+            {
+              "id": "progressive-party",
+              "name": "progressive-party"
+            }
+          ],
+          "constituency": "Central Harborough",
+          "position": "Leader of the Opposition",
+          "firstElected": "2010",
+          "email": "m.oyelaran@parliament.ald",
+          "phone": "+355 42 555 020",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "Leader of the Opposition Marcus Oyelaran",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/members/diana-petrov": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeMember",
+          "id": "member-backbench",
+          "title": "Hon. Diana Petrov",
+          "path": "/members/diana-petrov",
+          "body": {
+            "processed": "<p>Diana Petrov represents the constituency of Lakewood South and serves on the Standing Committee on the Environment and the Select Committee on Digital Innovation.</p><h2>Legislative Work</h2><ul><li>Sponsored the Clean Rivers Act of 2025</li><li>Co-sponsored the Digital Privacy Protection Bill</li><li>Championed rural broadband access legislation</li></ul><h2>Background</h2><p>Dr. Petrov holds a Ph.D. in Environmental Science and previously worked as a research scientist at the National Environmental Institute before entering politics in 2018.</p>",
+            "summary": "Diana Petrov represents the constituency of Lakewood South and serves on the Standing Committee on the Environment and the Select Committee on Digital Innovation.Legislative WorkSponsored the Clean Ri"
+          },
+          "party": [
+            {
+              "id": "green-coalition",
+              "name": "green-coalition"
+            }
+          ],
+          "constituency": "Lakewood South",
+          "position": "Member of Parliament",
+          "firstElected": "2018",
+          "email": "d.petrov@parliament.ald",
+          "phone": "+355 42 555 045",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+            "alt": "MP Diana Petrov",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/committees/finance-economic-affairs": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCommittee",
+          "id": "committee-finance",
+          "title": "Standing Committee on Finance and Economic Affairs",
+          "path": "/committees/finance-economic-affairs",
+          "body": {
+            "processed": "<p>The Standing Committee on Finance and Economic Affairs examines all financial legislation, reviews the national budget, and monitors economic policy and fiscal management.</p><h2>Mandate</h2><ul><li>Review and report on the annual budget and appropriation bills</li><li>Examine tax legislation and revenue policy</li><li>Monitor the national debt and fiscal sustainability</li><li>Scrutinize public expenditure and value for money</li><li>Review central bank reports and monetary policy</li></ul><h2>Recent Work</h2><p>The committee is currently conducting a comprehensive inquiry into digital currency regulation and its implications for the national economy.</p>",
+            "summary": "The Standing Committee on Finance and Economic Affairs examines all financial legislation, reviews the national budget, and monitors economic policy and fiscal management.MandateReview and report on t"
+          },
+          "chairName": "Hon. Thomas Kruger",
+          "memberCount": 21,
+          "committeeType": [
+            {
+              "id": "standing-committee",
+              "name": "standing-committee"
+            }
+          ],
+          "meetingSchedule": "Tuesdays and Thursdays, 10:00 AM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+            "alt": "Finance committee meeting room",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/committees/health-social-services": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCommittee",
+          "id": "committee-health",
+          "title": "Standing Committee on Health and Social Services",
+          "path": "/committees/health-social-services",
+          "body": {
+            "processed": "<p>The Standing Committee on Health and Social Services oversees healthcare policy, public health programs, and social welfare legislation.</p><h2>Areas of Responsibility</h2><ul><li>Healthcare system funding and performance</li><li>Pharmaceutical regulation and drug pricing</li><li>Mental health services and policy</li><li>Social security and welfare programs</li><li>Public health emergency preparedness</li></ul><h2>Current Inquiries</h2><p>The committee is holding hearings on mental health service accessibility in rural areas and reviewing the implementation of the National Health Service Reform Act.</p>",
+            "summary": "The Standing Committee on Health and Social Services oversees healthcare policy, public health programs, and social welfare legislation.Areas of ResponsibilityHealthcare system funding and performance"
+          },
+          "chairName": "Hon. Amira Hassan",
+          "memberCount": 18,
+          "committeeType": [
+            {
+              "id": "standing-committee",
+              "name": "standing-committee"
+            }
+          ],
+          "meetingSchedule": "Wednesdays, 2:00 PM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+            "alt": "Health committee hearing in progress",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/committees/digital-innovation": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCommittee",
+          "id": "committee-digital",
+          "title": "Select Committee on Digital Innovation",
+          "path": "/committees/digital-innovation",
+          "body": {
+            "processed": "<p>The Select Committee on Digital Innovation examines the impact of technology on society, the economy, and government, and recommends policies to harness digital innovation responsibly.</p><h2>Focus Areas</h2><ul><li>Artificial intelligence regulation and ethics</li><li>Data privacy and cybersecurity</li><li>Digital government services modernization</li><li>Digital skills and workforce development</li><li>Broadband infrastructure and digital access</li></ul><h2>Reports</h2><p>The committee recently published its landmark report on \"AI in Government: Opportunities and Safeguards\" which recommended a comprehensive regulatory framework for public sector use of artificial intelligence.</p>",
+            "summary": "The Select Committee on Digital Innovation examines the impact of technology on society, the economy, and government, and recommends policies to harness digital innovation responsibly.Focus AreasArtif"
+          },
+          "chairName": "Hon. Diana Petrov",
+          "memberCount": 15,
+          "committeeType": [
+            {
+              "id": "select-committee",
+              "name": "select-committee"
+            }
+          ],
+          "meetingSchedule": "Mondays, 3:00 PM",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+            "alt": "Digital technology and innovation",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/legislation/climate-action-framework-act": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeLegislation",
+          "id": "bill-climate",
+          "title": "Climate Action Framework Act",
+          "path": "/legislation/climate-action-framework-act",
+          "body": {
+            "processed": "<p>The Climate Action Framework Act establishes legally binding emissions reduction targets and creates an institutional framework for coordinating the nation's response to climate change.</p><h2>Key Provisions</h2><ul><li>Net-zero greenhouse gas emissions target by 2050</li><li>Interim target of 55% reduction by 2035 (from 2005 levels)</li><li>Establishment of an independent Climate Action Commission</li><li>Five-year carbon budgets with sectoral allocations</li><li>Green transition fund of 2 billion ALDs for renewable energy and efficiency</li></ul><h2>Legislative History</h2><p>The bill was introduced by the Prime Minister in response to growing public concern about climate change and the recommendations of the National Climate Advisory Panel.</p>",
+            "summary": "The Climate Action Framework Act establishes legally binding emissions reduction targets and creates an institutional framework for coordinating the nation's response to climate change.Key ProvisionsN"
+          },
+          "billNumber": "HB-2026-042",
+          "sponsor": "Rt. Hon. Prime Minister",
+          "introducedDate": {
+            "timestamp": 1768924800
+          },
+          "legislationStatus": "Committee Stage",
+          "committeeReferral": "Standing Committee on Environment and Natural Resources",
+          "category": [
+            {
+              "id": "environment",
+              "name": "environment"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/legislation/digital-privacy-protection-bill": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeLegislation",
+          "id": "bill-digital-privacy",
+          "title": "Digital Privacy Protection Bill",
+          "path": "/legislation/digital-privacy-protection-bill",
+          "body": {
+            "processed": "<p>The Digital Privacy Protection Bill strengthens data privacy rights for citizens and establishes new obligations for organizations that collect, process, and store personal data.</p><h2>Key Provisions</h2><ul><li>Right to data portability and the right to be forgotten</li><li>Mandatory data breach notification within 72 hours</li><li>Restrictions on automated decision-making affecting individuals</li><li>Establishment of a Data Protection Commissioner with enforcement powers</li><li>Penalties of up to 4% of annual revenue for non-compliance</li></ul><h2>Committee Review</h2><p>The Select Committee on Digital Innovation held three public hearings on the bill, receiving testimony from technology companies, civil liberties organizations, and academic experts.</p>",
+            "summary": "The Digital Privacy Protection Bill strengthens data privacy rights for citizens and establishes new obligations for organizations that collect, process, and store personal data.Key ProvisionsRight to"
+          },
+          "billNumber": "HB-2026-067",
+          "sponsor": "Hon. Diana Petrov",
+          "introducedDate": {
+            "timestamp": 1770307200
+          },
+          "legislationStatus": "Second Reading",
+          "committeeReferral": "Select Committee on Digital Innovation",
+          "category": [
+            {
+              "id": "defense-security",
+              "name": "defense-security"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/legislation/education-modernization-act": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeLegislation",
+          "id": "bill-education",
+          "title": "Education Modernization and Access Act",
+          "path": "/legislation/education-modernization-act",
+          "body": {
+            "processed": "<p>The Education Modernization and Access Act reforms the national education system to improve quality, expand access, and prepare students for the demands of the modern economy.</p><h2>Key Provisions</h2><ul><li>Universal pre-kindergarten for all children ages 3-4</li><li>Updated national curriculum emphasizing STEM and digital literacy</li><li>Teacher recruitment and retention incentive program</li><li>Expanded vocational training and apprenticeship pathways</li><li>Student loan reform with income-based repayment</li></ul><h2>Impact Assessment</h2><p>The Parliamentary Budget Office estimates the reforms will cost approximately 1.8 billion ALDs annually, funded through a reallocation of existing education budget and new revenue from the Digital Services Tax.</p>",
+            "summary": "The Education Modernization and Access Act reforms the national education system to improve quality, expand access, and prepare students for the demands of the modern economy.Key ProvisionsUniversal p"
+          },
+          "billNumber": "HB-2026-089",
+          "sponsor": "Hon. Marcus Oyelaran",
+          "introducedDate": {
+            "timestamp": 1772294400
+          },
+          "legislationStatus": "First Reading",
+          "committeeReferral": "Standing Committee on Education and Culture",
+          "category": [
+            {
+              "id": "education",
+              "name": "education"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/sessions/plenary-sitting-january-28": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeSession",
+          "id": "session-plenary-jan",
+          "title": "Plenary Sitting - January 28, 2026",
+          "path": "/sessions/plenary-sitting-january-28",
+          "body": {
+            "processed": "<p>Regular plenary sitting of Parliament to debate and vote on pending legislation and hear ministerial statements.</p><h2>Order of Business</h2><ul><li>Questions to the Prime Minister (30 minutes)</li><li>Second Reading debate: Climate Action Framework Act (HB-2026-042)</li><li>Committee Stage report: National Health Service Amendment Bill</li><li>Ministerial Statement: Economic Growth Strategy Update</li><li>Opposition Day debate: Housing Affordability Crisis</li></ul><p>Members of the public may observe proceedings from the public gallery. Gallery passes are available from the Visitor Services office.</p>",
+            "summary": "Regular plenary sitting of Parliament to debate and vote on pending legislation and hear ministerial statements.Order of BusinessQuestions to the Prime Minister (30 minutes)Second Reading debate: Clim"
+          },
+          "sessionDate": {
+            "timestamp": 1769630400
+          },
+          "endTime": {
+            "timestamp": 1769659200
+          },
+          "location": "Parliamentary Chamber, Parliament House",
+          "sessionType": [
+            {
+              "id": "plenary-sitting",
+              "name": "plenary-sitting"
+            }
+          ],
+          "agendaUrl": "https://parliament.ald/order-paper/2026-01-28",
+          "broadcastUrl": "https://parliament.ald/live"
+        }
+      }
+    }
+  },
+  "/sessions/question-time-february-4": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeSession",
+          "id": "session-question-time",
+          "title": "Prime Minister's Question Time - February 4, 2026",
+          "path": "/sessions/question-time-february-4",
+          "body": {
+            "processed": "<p>Weekly session in which Members of Parliament question the Prime Minister on matters of government policy and national importance.</p><h2>Expected Topics</h2><ul><li>Cost of living and inflation measures</li><li>NHS waiting times and health service reform</li><li>International trade agreements update</li><li>Climate policy and energy security</li></ul><p>Question Time is broadcast live on Parliamentary Television and streamed on the Parliament website.</p>",
+            "summary": "Weekly session in which Members of Parliament question the Prime Minister on matters of government policy and national importance.Expected TopicsCost of living and inflation measuresNHS waiting times "
+          },
+          "sessionDate": {
+            "timestamp": 1770228000
+          },
+          "endTime": {
+            "timestamp": 1770229800
+          },
+          "location": "Parliamentary Chamber, Parliament House",
+          "sessionType": [
+            {
+              "id": "question-time",
+              "name": "question-time"
+            }
+          ],
+          "agendaUrl": "https://parliament.ald/questions/2026-02-04",
+          "broadcastUrl": "https://parliament.ald/live"
+        }
+      }
+    }
+  },
+  "/sessions/budget-session-march-15": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeSession",
+          "id": "session-budget",
+          "title": "Budget Session - March 15, 2026",
+          "path": "/sessions/budget-session-march-15",
+          "body": {
+            "processed": "<p>The Chancellor of the Exchequer will present the National Budget for Fiscal Year 2026-2027, outlining the government's spending and revenue plans.</p><h2>Budget Process</h2><ul><li>Budget Speech by the Chancellor (approximately 90 minutes)</li><li>Opposition response (30 minutes)</li><li>General debate on the budget (2 days)</li><li>Committee stage examination (2 weeks)</li><li>Final vote on the Finance Bill</li></ul><p>The budget speech will be followed by the publication of detailed budget documents, available for download on the Treasury website.</p>",
+            "summary": "The Chancellor of the Exchequer will present the National Budget for Fiscal Year 2026-2027, outlining the government's spending and revenue plans.Budget ProcessBudget Speech by the Chancellor (approxi"
+          },
+          "sessionDate": {
+            "timestamp": 1773603000
+          },
+          "endTime": {
+            "timestamp": 1773615600
+          },
+          "location": "Parliamentary Chamber, Parliament House",
+          "sessionType": [
+            {
+              "id": "budget-session",
+              "name": "budget-session"
+            }
+          ],
+          "agendaUrl": "https://parliament.ald/budget/2026",
+          "broadcastUrl": "https://parliament.ald/live"
+        }
+      }
+    }
+  },
+  "/news/climate-bill-passes-second-reading": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-climate-vote",
+          "title": "Climate Action Framework Act Passes Second Reading with Cross-Party Support",
+          "path": "/news/climate-bill-passes-second-reading",
+          "body": {
+            "processed": "<p>The Climate Action Framework Act passed its second reading in Parliament with a vote of 248 to 87, gaining support from members across party lines.</p><h2>Debate Highlights</h2><p>During the six-hour debate, members discussed the economic implications of emissions targets, the need for a just transition for workers in fossil fuel industries, and the role of technology in achieving net-zero goals.</p><h2>Next Steps</h2><ul><li>The bill now moves to committee stage for detailed scrutiny</li><li>The Standing Committee on Environment will hold public hearings</li><li>Amendments may be proposed and voted on during committee stage</li><li>Third reading expected by June 2026</li></ul><p>\"This is a historic moment for our nation,\" said the Prime Minister. \"We are demonstrating that Aldoria will lead the global effort to combat climate change.\"</p>",
+            "summary": "The Climate Action Framework Act passed its second reading in Parliament with a vote of 248 to 87, gaining support from members across party lines.Debate HighlightsDuring the six-hour debate, members "
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800&q=80",
+            "alt": "Parliamentary voting session",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "category": [
+            {
+              "id": "legislative-updates",
+              "name": "legislative-updates"
+            }
+          ],
+          "featured": true
+        }
+      }
+    }
+  },
+  "/news/speaker-new-procedures": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-speaker-ruling",
+          "title": "Speaker Announces New Procedures for Digital Participation in Debates",
+          "path": "/news/speaker-new-procedures",
+          "body": {
+            "processed": "<p>Speaker Ashworth announced new standing orders that will allow Members of Parliament to participate in committee hearings remotely via secure video link under specified circumstances.</p><h2>Key Changes</h2><ul><li>Members may participate remotely in committee hearings with advance approval</li><li>Remote participation limited to evidence-gathering sessions, not voting</li><li>Secure parliamentary video conferencing system required</li><li>Speaker retains authority to require in-person attendance</li></ul><p>The changes were recommended by the Select Committee on Parliamentary Procedures following a six-month review of hybrid working arrangements introduced during the pandemic.</p>",
+            "summary": "Speaker Ashworth announced new standing orders that will allow Members of Parliament to participate in committee hearings remotely via secure video link under specified circumstances.Key ChangesMember"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+            "alt": "Digital parliamentary participation",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "category": [
+            {
+              "id": "speaker-announcements",
+              "name": "speaker-announcements"
+            }
+          ],
+          "featured": false
+        }
+      }
+    }
+  },
+  "/news/ai-government-report": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-committee-report",
+          "title": "Select Committee Publishes Landmark Report on AI in Government",
+          "path": "/news/ai-government-report",
+          "body": {
+            "processed": "<p>The Select Committee on Digital Innovation has published its long-awaited report on the use of artificial intelligence in government services, recommending a comprehensive regulatory framework.</p><h2>Key Recommendations</h2><ul><li>Mandatory impact assessments before deploying AI in public services</li><li>Establishment of a Government AI Standards Board</li><li>Transparency requirements for AI-assisted decisions affecting citizens</li><li>Investment in AI skills training for civil servants</li><li>Annual parliamentary review of government AI use</li></ul><p>The report, which took 18 months to produce, drew on testimony from over 100 witnesses including technology experts, civil servants, and members of the public.</p>",
+            "summary": "The Select Committee on Digital Innovation has published its long-awaited report on the use of artificial intelligence in government services, recommending a comprehensive regulatory framework.Key Rec"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
+            "alt": "Artificial intelligence and government technology",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "category": [
+            {
+              "id": "committee-reports",
+              "name": "committee-reports"
+            }
+          ],
+          "featured": true
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Parliament",
+          "path": "/about",
+          "body": {
+            "processed": "<p>The Parliament of Aldoria is the supreme legislative body of the nation, established under the Constitution of 1948. Parliament is composed of 350 elected Members who represent constituencies across the country.</p><h2>Functions of Parliament</h2><ul><li>Making and amending laws through the legislative process</li><li>Scrutinizing government policy and holding ministers accountable</li><li>Approving the national budget and government spending</li><li>Debating matters of national importance</li><li>Representing the interests and concerns of constituents</li></ul><h2>Parliamentary Sessions</h2><p>Parliament sits for approximately 142 days per year, typically from late January through July and from September through December. The Speaker sets the daily agenda in consultation with party leaders.</p>",
+            "summary": "The Parliament of Aldoria is the supreme legislative body of the nation, established under the Constitution of 1948. Parliament is composed of 350 elected Members who represent constituencies across t"
+          }
+        }
+      }
+    }
+  },
+  "/visiting": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-visiting",
+          "title": "Visiting Parliament",
+          "path": "/visiting",
+          "body": {
+            "processed": "<p>Parliament House is open to the public and we welcome visitors to learn about the democratic process and the history of our national legislature.</p><h2>Guided Tours</h2><p>Free guided tours of Parliament House are available Monday through Saturday. Tours last approximately 75 minutes and include the Parliamentary Chamber, Committee Rooms, the Great Hall, and the Parliamentary Library.</p><h2>Attending Debates</h2><p>Members of the public may observe parliamentary debates from the public gallery. Gallery passes are available on a first-come, first-served basis from the Visitor Services desk. Identification is required.</p><h2>Visitor Information</h2><ul><li>Address: Parliament House, Constitution Square, Aldoria City</li><li>Tour bookings: tours@parliament.ald or +355 42 555 200</li><li>Opening hours: Monday - Saturday, 9:00 AM - 5:00 PM</li><li>Closed on public holidays and during parliamentary recess</li></ul>",
+            "summary": "Parliament House is open to the public and we welcome visitors to learn about the democratic process and the history of our national legislature.Guided ToursFree guided tours of Parliament House are a"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Parliament of Aldoria",
+          "path": "/homepage",
+          "heroTitle": "The People's Parliament",
+          "heroSubtitle": "Legislating for a Better Aldoria",
+          "heroDescription": {
+            "processed": "<p>The Parliament of Aldoria is the supreme legislative body of the nation, responsible for making laws, scrutinizing government, and representing the interests of all Aldorians.</p>",
+            "summary": "The Parliament of Aldoria is the supreme legislative body of the nation, responsible for making laws, scrutinizing government, and representing the interests of all Aldorians."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-members",
+              "title": "",
+              "number": "350",
+              "label": "Members"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-committees",
+              "title": "",
+              "number": "24",
+              "label": "Committees"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-bills",
+              "title": "",
+              "number": "187",
+              "label": "Bills This Session"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-sessions",
+              "title": "",
+              "number": "142",
+              "label": "Sitting Days"
+            }
+          ],
+          "featuredItemsTitle": "Current Legislation",
+          "ctaTitle": "Engage With Your Parliament",
+          "ctaDescription": {
+            "processed": "<p>Parliament belongs to the people. Submit petitions, attend public hearings, watch live debates, and contact your representative to make your voice heard.</p>",
+            "summary": "Parliament belongs to the people. Submit petitions, attend public hearings, watch live debates, and contact your representative to make your voice heard."
+          },
+          "ctaPrimary": "Find Your MP",
+          "ctaSecondary": "Watch Live Debates"
+        }
+      ]
+    }
+  }
+}

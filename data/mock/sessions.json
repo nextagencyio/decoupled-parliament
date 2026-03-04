@@ -1,0 +1,84 @@
+{
+  "data": {
+    "nodeSessions": {
+      "__typename": "NodeSessionConnection",
+      "nodes": [
+        {
+          "__typename": "NodeSession",
+          "id": "session-plenary-jan",
+          "title": "Plenary Sitting - January 28, 2026",
+          "path": "/sessions/plenary-sitting-january-28",
+          "body": {
+            "processed": "<p>Regular plenary sitting of Parliament to debate and vote on pending legislation and hear ministerial statements.</p><h2>Order of Business</h2><ul><li>Questions to the Prime Minister (30 minutes)</li><li>Second Reading debate: Climate Action Framework Act (HB-2026-042)</li><li>Committee Stage report: National Health Service Amendment Bill</li><li>Ministerial Statement: Economic Growth Strategy Update</li><li>Opposition Day debate: Housing Affordability Crisis</li></ul><p>Members of the public may observe proceedings from the public gallery. Gallery passes are available from the Visitor Services office.</p>",
+            "summary": "Regular plenary sitting of Parliament to debate and vote on pending legislation and hear ministerial statements.Order of BusinessQuestions to the Prime Minister (30 minutes)Second Reading debate: Clim"
+          },
+          "sessionDate": {
+            "timestamp": 1769630400
+          },
+          "endTime": {
+            "timestamp": 1769659200
+          },
+          "location": "Parliamentary Chamber, Parliament House",
+          "sessionType": [
+            {
+              "id": "plenary-sitting",
+              "name": "plenary-sitting"
+            }
+          ],
+          "agendaUrl": "https://parliament.ald/order-paper/2026-01-28",
+          "broadcastUrl": "https://parliament.ald/live"
+        },
+        {
+          "__typename": "NodeSession",
+          "id": "session-question-time",
+          "title": "Prime Minister's Question Time - February 4, 2026",
+          "path": "/sessions/question-time-february-4",
+          "body": {
+            "processed": "<p>Weekly session in which Members of Parliament question the Prime Minister on matters of government policy and national importance.</p><h2>Expected Topics</h2><ul><li>Cost of living and inflation measures</li><li>NHS waiting times and health service reform</li><li>International trade agreements update</li><li>Climate policy and energy security</li></ul><p>Question Time is broadcast live on Parliamentary Television and streamed on the Parliament website.</p>",
+            "summary": "Weekly session in which Members of Parliament question the Prime Minister on matters of government policy and national importance.Expected TopicsCost of living and inflation measuresNHS waiting times "
+          },
+          "sessionDate": {
+            "timestamp": 1770228000
+          },
+          "endTime": {
+            "timestamp": 1770229800
+          },
+          "location": "Parliamentary Chamber, Parliament House",
+          "sessionType": [
+            {
+              "id": "question-time",
+              "name": "question-time"
+            }
+          ],
+          "agendaUrl": "https://parliament.ald/questions/2026-02-04",
+          "broadcastUrl": "https://parliament.ald/live"
+        },
+        {
+          "__typename": "NodeSession",
+          "id": "session-budget",
+          "title": "Budget Session - March 15, 2026",
+          "path": "/sessions/budget-session-march-15",
+          "body": {
+            "processed": "<p>The Chancellor of the Exchequer will present the National Budget for Fiscal Year 2026-2027, outlining the government's spending and revenue plans.</p><h2>Budget Process</h2><ul><li>Budget Speech by the Chancellor (approximately 90 minutes)</li><li>Opposition response (30 minutes)</li><li>General debate on the budget (2 days)</li><li>Committee stage examination (2 weeks)</li><li>Final vote on the Finance Bill</li></ul><p>The budget speech will be followed by the publication of detailed budget documents, available for download on the Treasury website.</p>",
+            "summary": "The Chancellor of the Exchequer will present the National Budget for Fiscal Year 2026-2027, outlining the government's spending and revenue plans.Budget ProcessBudget Speech by the Chancellor (approxi"
+          },
+          "sessionDate": {
+            "timestamp": 1773603000
+          },
+          "endTime": {
+            "timestamp": 1773615600
+          },
+          "location": "Parliamentary Chamber, Parliament House",
+          "sessionType": [
+            {
+              "id": "budget-session",
+              "name": "budget-session"
+            }
+          ],
+          "agendaUrl": "https://parliament.ald/budget/2026",
+          "broadcastUrl": "https://parliament.ald/live"
+        }
+      ]
+    }
+  }
+}

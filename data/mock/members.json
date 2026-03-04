@@ -1,0 +1,150 @@
+{
+  "data": {
+    "nodeMembers": {
+      "__typename": "NodeMemberConnection",
+      "nodes": [
+        {
+          "__typename": "NodeMember",
+          "id": "member-speaker",
+          "title": "Rt. Hon. Eleanor Ashworth",
+          "path": "/members/eleanor-ashworth",
+          "body": {
+            "processed": "<p>The Right Honourable Eleanor Ashworth has served as Speaker of Parliament since 2024, presiding over debates and ensuring parliamentary procedure is followed.</p><h2>Parliamentary Career</h2><p>First elected to Parliament in 2006 representing Northgate, Speaker Ashworth served as Minister for Education (2014-2018) and Leader of the House (2018-2024) before being unanimously elected Speaker.</p><h2>Role of the Speaker</h2><ul><li>Presides over plenary debates and maintains order</li><li>Rules on points of order and procedural matters</li><li>Represents Parliament in official functions</li><li>Oversees parliamentary staff and administration</li></ul>",
+            "summary": "The Right Honourable Eleanor Ashworth has served as Speaker of Parliament since 2024, presiding over debates and ensuring parliamentary procedure is followed.Parliamentary CareerFirst elected to Parli"
+          },
+          "party": [
+            {
+              "id": "democratic-alliance",
+              "name": "democratic-alliance"
+            }
+          ],
+          "constituency": "Northgate",
+          "position": "Speaker of Parliament",
+          "firstElected": "2006",
+          "email": "speaker@parliament.ald",
+          "phone": "+355 42 555 001",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Speaker Eleanor Ashworth",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeMember",
+          "id": "member-opposition-leader",
+          "title": "Hon. Marcus Oyelaran",
+          "path": "/members/marcus-oyelaran",
+          "body": {
+            "processed": "<p>Marcus Oyelaran serves as Leader of the Opposition, heading the Progressive Party caucus in Parliament and providing alternative policy positions to the governing coalition.</p><h2>Policy Priorities</h2><ul><li>Healthcare reform and universal coverage expansion</li><li>Climate action and green energy transition</li><li>Workers' rights and wage growth</li><li>Affordable housing investment</li></ul><h2>Background</h2><p>Before entering politics, Mr. Oyelaran practiced law for 12 years, specializing in constitutional law and human rights cases.</p>",
+            "summary": "Marcus Oyelaran serves as Leader of the Opposition, heading the Progressive Party caucus in Parliament and providing alternative policy positions to the governing coalition.Policy PrioritiesHealthcare"
+          },
+          "party": [
+            {
+              "id": "progressive-party",
+              "name": "progressive-party"
+            }
+          ],
+          "constituency": "Central Harborough",
+          "position": "Leader of the Opposition",
+          "firstElected": "2010",
+          "email": "m.oyelaran@parliament.ald",
+          "phone": "+355 42 555 020",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "Leader of the Opposition Marcus Oyelaran",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeMember",
+          "id": "member-backbench",
+          "title": "Hon. Diana Petrov",
+          "path": "/members/diana-petrov",
+          "body": {
+            "processed": "<p>Diana Petrov represents the constituency of Lakewood South and serves on the Standing Committee on the Environment and the Select Committee on Digital Innovation.</p><h2>Legislative Work</h2><ul><li>Sponsored the Clean Rivers Act of 2025</li><li>Co-sponsored the Digital Privacy Protection Bill</li><li>Championed rural broadband access legislation</li></ul><h2>Background</h2><p>Dr. Petrov holds a Ph.D. in Environmental Science and previously worked as a research scientist at the National Environmental Institute before entering politics in 2018.</p>",
+            "summary": "Diana Petrov represents the constituency of Lakewood South and serves on the Standing Committee on the Environment and the Select Committee on Digital Innovation.Legislative WorkSponsored the Clean Ri"
+          },
+          "party": [
+            {
+              "id": "green-coalition",
+              "name": "green-coalition"
+            }
+          ],
+          "constituency": "Lakewood South",
+          "position": "Member of Parliament",
+          "firstElected": "2018",
+          "email": "d.petrov@parliament.ald",
+          "phone": "+355 42 555 045",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+            "alt": "MP Diana Petrov",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
