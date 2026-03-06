@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-members",
               "title": "",
-              "number": "350",
+              "number": "350", "value": "350",
               "label": "Members"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-committees",
               "title": "",
-              "number": "24",
+              "number": "24", "value": "24",
               "label": "Committees"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-bills",
               "title": "",
-              "number": "187",
+              "number": "187", "value": "187",
               "label": "Bills This Session"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-sessions",
               "title": "",
-              "number": "142",
+              "number": "142", "value": "142",
               "label": "Sitting Days"
             }
           ],
