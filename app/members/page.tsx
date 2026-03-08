@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import MemberCard from '../components/MemberCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Members of Parliament | National Parliament of Aldoria',

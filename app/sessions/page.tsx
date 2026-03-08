@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import SessionCard from '../components/SessionCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Sessions | National Parliament of Aldoria',
