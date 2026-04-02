@@ -1,6 +1,5 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
-import { headers } from 'next/headers'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_SESSIONS } from '@/lib/queries'
 import { SessionsData } from '@/lib/types'
 import Header from '../components/Header'
@@ -16,13 +15,8 @@ export const metadata: Metadata = {
 
 async function getSessions() {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<SessionsData>({
-      query: GET_SESSIONS,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    })
+    const client = getClient()
+    const { data } = await client.raw(GET_SESSIONS, { first: 50 })
     return data?.nodeSessions?.nodes || []
   } catch (error) {
     console.error('Error fetching sessions:', error)

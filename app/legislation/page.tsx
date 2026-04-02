@@ -1,6 +1,5 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
-import { headers } from 'next/headers'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_LEGISLATIONS } from '@/lib/queries'
 import { LegislationsData } from '@/lib/types'
 import Header from '../components/Header'
@@ -16,13 +15,8 @@ export const metadata: Metadata = {
 
 async function getLegislations() {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<LegislationsData>({
-      query: GET_LEGISLATIONS,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    })
+    const client = getClient()
+    const { data } = await client.raw(GET_LEGISLATIONS, { first: 50 })
     return data?.nodeLegislations?.nodes || []
   } catch (error) {
     console.error('Error fetching legislations:', error)

@@ -1,6 +1,5 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
-import { headers } from 'next/headers'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_COMMITTEES } from '@/lib/queries'
 import { CommitteesData } from '@/lib/types'
 import Header from '../components/Header'
@@ -16,13 +15,8 @@ export const metadata: Metadata = {
 
 async function getCommittees() {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<CommitteesData>({
-      query: GET_COMMITTEES,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    })
+    const client = getClient()
+    const { data } = await client.raw(GET_COMMITTEES, { first: 50 })
     return data?.nodeCommittees?.nodes || []
   } catch (error) {
     console.error('Error fetching committees:', error)
