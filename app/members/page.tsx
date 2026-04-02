@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getMembers() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_MEMBERS, { first: 50 })
+    const data = await client.raw(GET_MEMBERS, { first: 50 })
     return data?.nodeMembers?.nodes || []
   } catch (error) {
     console.error('Error fetching members:', error)
@@ -56,7 +56,7 @@ export default async function MembersPage() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <MemberCard key={item.id} item={item} />
               ))}
             </div>

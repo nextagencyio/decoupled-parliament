@@ -24,7 +24,7 @@ interface SessionByPathData {
 async function getSession(path: string): Promise<DrupalSession | null> {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_SESSION_BY_PATH, { path })
+    const data = await client.raw(GET_SESSION_BY_PATH, { path })
     return data?.route?.entity || null
   } catch (error) {
     console.error('Error fetching session:', error)

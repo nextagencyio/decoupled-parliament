@@ -24,7 +24,7 @@ interface MemberByPathData {
 async function getMember(path: string): Promise<DrupalMember | null> {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_MEMBER_BY_PATH, { path })
+    const data = await client.raw(GET_MEMBER_BY_PATH, { path })
     return data?.route?.entity || null
   } catch (error) {
     console.error('Error fetching member:', error)
